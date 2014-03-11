@@ -5,5 +5,6 @@ require 'redis'
 set :server, 'thin'
 
 get '/' do
-  "Hello World"
+
+  erb :index
 end
